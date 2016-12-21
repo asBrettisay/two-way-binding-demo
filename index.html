@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="two-way-binding">
+  <head>
+  <title></title>
+  </head>
+<body ng-controller="mainCtrl">
+  {{name}}
+
+  <name-directive name="name"></name-directive>
+  
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="./app.js"></script>
+  <script src="./mainCtrl.js"></script>
+  <script src="./directive.js"></script>
+</body>
+</html>
